@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A9133DA-4AB2-418E-BB7E-7D06F67DAF6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{31A544C9-8F93-43C9-92B1-47D580FA2611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockSqueezeAnalyzer", "StockSqueezeAnalyzer\StockSqueezeAnalyzer.csproj", "{D1D6C78C-866C-44FE-B726-F6A71705D6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockSqueezeAnalyzer.Tests", "StockSqueezeAnalyzer.Tests\StockSqueezeAnalyzer.Tests.csproj", "{94C01457-CFE7-4246-AD7A-6BED8A80357E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D6C78C-866C-44FE-B726-F6A71705D6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D6C78C-866C-44FE-B726-F6A71705D6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D6C78C-866C-44FE-B726-F6A71705D6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D6C78C-866C-44FE-B726-F6A71705D6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C01457-CFE7-4246-AD7A-6BED8A80357E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C01457-CFE7-4246-AD7A-6BED8A80357E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C01457-CFE7-4246-AD7A-6BED8A80357E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C01457-CFE7-4246-AD7A-6BED8A80357E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1D6C78C-866C-44FE-B726-F6A71705D6DB} = {2A9133DA-4AB2-418E-BB7E-7D06F67DAF6D}
+		{94C01457-CFE7-4246-AD7A-6BED8A80357E} = {31A544C9-8F93-43C9-92B1-47D580FA2611}
+	EndGlobalSection
+EndGlobal
